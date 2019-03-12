@@ -2,7 +2,7 @@ body {
     display: flex;
     min-height:100vh;
     flex-direction: column;
-    background-image: url(./assets/ignasi_pattern_s.png);
+    background-image: url("../images/ignasi_pattern_s.png");
     margin: 0;
     font-family: 'Montserrat';
 }
@@ -77,6 +77,7 @@ hr {
 
 article {
     flex-direction: row;
+    padding-bottom: 20px;
 }
 
 p   {
@@ -138,7 +139,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    height: 70px;
+    padding-top: 20px;
     border-top: 7px solid rgb(139, 178, 216);
     margin-top: 100px;
     
@@ -205,10 +206,17 @@ p.contact   {
 }
 
 .p-footer {
+    position: absolute;
+    padding-top: 40px;
+    bottom: 0;
     font-size: 8px;
     letter-spacing: .1em;
 }
 
 h4 {
     padding: 0px;
+}
+
+.wrapper {
+    flex-wrap: wrap;
 }
