@@ -96,9 +96,10 @@ p   {
 .gal-item {
     display: block;
     position: relative;
-    padding: 2%;
+    padding: 0%;
     table-layout: auto;
     max-width: 300px;
+    margin-right: 10px;
 }
 
 .gal-pic {
