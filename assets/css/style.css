@@ -31,7 +31,8 @@ header {
     display: flex;
     max-width: 960px;
     height: 70px;
-    margin-left: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 nav { 
@@ -53,8 +54,8 @@ main {
     flex-direction: column;
     background-color: rgb(245, 245, 245);
     margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     max-width: 956px; 
     box-shadow: 1px 1px 1px 1px slategray;
     margin-bottom: 200px;
@@ -78,7 +79,7 @@ hr {
     float: left;
     max-width: 20%;
     padding-left: 2%;
-    padding-right: 2%
+    padding-right: 2%;
 
 }
 
