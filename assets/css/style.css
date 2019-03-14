@@ -50,12 +50,15 @@ a:hover {
 }
 
 main {
+    flex-direction: column;
     background-color: rgb(245, 245, 245);
     margin-top: 40px;
     margin-left: 200px;
-    width: 956px; 
+    margin-right: 2%;
+    max-width: 956px; 
     box-shadow: 1px 1px 1px 1px slategray;
     margin-bottom: 200px;
+    position: relative;
 }
 
 h1 {
