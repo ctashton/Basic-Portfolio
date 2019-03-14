@@ -9,7 +9,6 @@ body {
 
 header {
     background-color: rgb(245, 245, 245);
-    height: 70px;
     width: 100%;
     box-shadow: 1px 1px 1px 1px slategray;
 }
@@ -17,10 +16,15 @@ header {
 .logo {
     font-size: 18px;
     letter-spacing: .2em;
-    background-color: slategrey;
-    color: whitesmoke;
+    color: slategrey;
     padding: 20px;
     text-align: center;
+}
+
+.logo-icon {
+    padding: 2%;
+    width: 68px;
+    background-color: slategrey;
 }
 
 .hdr-ctr {
